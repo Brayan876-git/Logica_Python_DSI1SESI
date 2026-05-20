@@ -5,8 +5,10 @@
 idade = 25
 print("Ex1")
 print("Idade do usuário: 25")
+print("Em 5 anos terá:", idade + 5)
 print(type (idade))
 print("\n\n")
+print("-------------------------------")
 
 # EX2
 # Converta o número de ponto flutuante 7.999
@@ -16,17 +18,20 @@ float = int (7.999)
 print("número(7.999)", float)
 print("Convertendo...", type(float))
 print("\n\n")
-
+print("-------------------------------")
 # EX3
 # Converta a string "-3.14" para float
 # e multiplique o resultado por 2.
 valor1 ="-3.14"
+print("Ex3")
 print(type (valor1))
-print()
+print("Multiplicando por 2:", -3.14 * 2)
+print("\n\n")
 
 # EX4
 # Tente converter a string "cento e vinte"
 # para inteiro e observe o que acontece.
+
 
 # EX5
 # Converta o número 42 para string
