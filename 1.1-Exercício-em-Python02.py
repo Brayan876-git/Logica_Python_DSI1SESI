@@ -22,9 +22,9 @@ print("\n\n")
 # EX3
 # Converta a string "-3.14" para float
 # e multiplique o resultado por 2.
-valor2 ="-3.14"
+valor1 = ("-3.14")
 print("Ex3")
-print(type (valor2))
+print("O tipo do número antes da conversão é:", type (valor1))
 print("Multiplicando por 2:", -3.14 * 2)
 print("-------------------------------")
 print("\n\n")
@@ -35,6 +35,8 @@ print("\n\n")
 valor2 = ("cento e vinte")
 print("Ex4")
 print(type (valor2))
+print("--------------------------------")
+print("\n\n")
 
 # EX5
 # Converta o número 42 para string
