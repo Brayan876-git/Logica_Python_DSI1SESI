@@ -74,4 +74,5 @@ print("\n\n")
 # Mostre a representação em binário
 # do número 10 usando uma função do Python.
 print("Ex 10")
-print("Representação do 10 em binário: 1010")
+print("Representação em binário:", bin(10))
+print("\n\n")
