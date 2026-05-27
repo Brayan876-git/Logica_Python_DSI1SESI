@@ -100,3 +100,4 @@ print ("tipo:", type(valor2))
 valor3 = float(10)
 print("float(10):", valor3)
 print("Tipo:", type(valor3))
+
