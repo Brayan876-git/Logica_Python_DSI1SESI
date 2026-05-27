@@ -14,8 +14,7 @@ print("\n\n")
 # para inteiro e observe o resultado.
 print("Ex2")
 numero = int (7.999)
-print("número(7.999)", float)
-print("Convertendo...", type(float))
+print(type (numero))
 print("-------------------------------")
 print("\n\n")
 
@@ -24,8 +23,7 @@ print("\n\n")
 # e multiplique o resultado por 2.
 valor1 = ("-3.14")
 print("Ex3")
-print("O tipo do número antes da conversão é:", type (valor1))
-print("Multiplicando por 2:", -3.14 * 2)
+resultado = valor1 * 2
 print("-------------------------------")
 print("\n\n")
 
@@ -34,6 +32,7 @@ print("\n\n")
 # para inteiro e observe o que acontece.
 valor2 = ("cento e vinte")
 print("Ex4")
+print(valor2)
 print(type (valor2))
 print("--------------------------------")
 print("\n\n")
@@ -41,11 +40,15 @@ print("\n\n")
 # EX5
 # Converta o número 42 para string
 # e concatene com a palavra " respostas".
+num = str(42)
+print(num, "respostas.")
 
 # EX6
 # Use a função complex() para criar
 # um número complexo com parte real 3
 # e parte imaginária 5.
+numerocomplexo = 3 + 5j
+
 
 # EX7
 # Converta o número 0 para booleano
