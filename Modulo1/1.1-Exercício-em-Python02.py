@@ -41,27 +41,52 @@ print("\n\n")
 # Converta o número 42 para string
 # e concatene com a palavra " respostas".
 num = str(42)
+print("Ex5")
 print(num, "respostas.")
+print("--------------------------------")
+print("\n\n")
 
 # EX6
 # Use a função complex() para criar
 # um número complexo com parte real 3
 # e parte imaginária 5.
 numerocomplexo = 3 + 5j
-
+print("Ex6")
+print(numerocomplexo.real)
+print("--------------------------------")
+print("\n\n")
 
 # EX7
 # Converta o número 0 para booleano
 # e mostre o resultado.
+print("Ex7")
+print(bool(0))
+print("--------------------------------")
+print("\n\n")
 
 # EX8
 # Converta o número -100 para booleano
 # e mostre o resultado.
+print("Ex8")
+print(bool(-100))
+print("--------------------------------")
+print("\n\n")
 
 # EX9
 # Converta o número 3.1415 para inteiro
 # e depois para string, tudo em uma única linha.
+num1 = str(int(3.1415))
+print("Ex9")
+print(num1)
+print("--------------------------------")
+print("\n\n")
 
 # EX10
 # Some um número inteiro (5) com um float (2.3)
 # e verifique qual é o tipo do resultado.
+numero_inteiro = 5
+print("Ex10")
+resultado1 = numero_inteiro + 3,14
+print(type(resultado1))
+print("--------------------------------")
+print("\n\n")
