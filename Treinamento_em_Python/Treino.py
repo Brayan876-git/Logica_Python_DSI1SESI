@@ -76,3 +76,76 @@ texto3 = "Coxinha 'com catupiry'"
 texto4 = 'Coxinha "com catupiry"'
 
 print(texto1, texto2, texto3, texto4)
+print("--------------------------------------------------")
+#Menu
+
+menu = """\
+Compras: Loja [OPÇÕES]
+-H Exibe ajuda para compras
+-U Url do produto
+-Y Quantidade
+-C Confirmar compra do produto
+"""
+print(menu)
+
+print("--------------------------------------------------")
+
+
+texto = ("Coxinha" " Tempo" " Catupiry" " Pizza marguerita")
+print(texto)
+
+
+print("--------------------------------------------------")
+
+
+st = "coxinha"
+print("Palavra:",st)
+print("Mostre a primeira letra:", st [0])
+
+print("Mostre a última letra:", st [-1])
+
+print("Trecho:", st [1:4])
+
+print("Do início até 3:", st [:3])
+
+print("Do 2 até o fim:", st [2:])
+
+print("Tamanho", len(st))
+print("--------------------------------------------------")
+
+print("c" in st)
+
+print("z" not in st)
+
+print("c" * 67)
+
+print("c" + "oxinha")
+print("--------------------------------------------------")
+
+texto1 = "python3"
+
+texto1 = texto1.replace("3", "é vida")
+
+print(texto1)
+
+comida = "coxinha"
+
+print(comida.capitalize())
+
+print("\n\n")
+print(comida.count("a"))
+
+print("\n\n")
+print(comida.startswith("co"))
+
+print("\n\n")
+print(comida.endswith("z"))
+
+print("\n\n")
+frase = "Cavalos são legais"
+
+print(frase.split(" "))
+print("\n\n")
+
+print("========== Fim do treinamento ============")
+print("05/06/2026")
